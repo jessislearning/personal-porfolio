@@ -1,0 +1,44 @@
+html {
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-family:monospace;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color:pink
+}
+
+.navbar {
+    background-color: #b4786b;
+    height: 2em;
+    text-align: end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+li {
+    display: inline;
+}
+
+.welcome-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
