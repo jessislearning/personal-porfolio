@@ -19,19 +19,27 @@ h2 {
     color:pink
 }
 
-.navbar {
-    background-color: #b4786b;
-    height: 2em;
-    text-align: end;
-    align-items: center;
-    position: absolute;
+nav {
+    position: fixed;
     top: 0;
     width: 100%;
-    padding-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #b4786b;
+    margin-top: 0;
 }
 
 li {
-    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+li:hover {
+    background-color: #612a11;
 }
 
 .welcome-section {
