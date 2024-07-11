@@ -19,13 +19,28 @@ h2 {
     color:pink
 }
 
+.nav-link {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+a { 
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+.project-link:hover {
+    background-color: #612a11;
+}
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-ul {
+.nav-ul {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -33,12 +48,12 @@ ul {
     margin-top: 0;
 }
 
-li {
+.nav-list {
     list-style: none;
     padding: 20px;
 }
 
-li:hover {
+.nav-list:hover {
     background-color: #612a11;
 }
 
@@ -50,3 +65,41 @@ li:hover {
     height: 100vh;
     width: 100%;
 }
+
+
+/* Projects Section */
+
+.project-tile-image { 
+    height: 300px;  
+    max-height: 400px;
+}
+
+.projects {
+    margin-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.web-design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+img {
+     object-fit:cover;
+     object-position: top center;
+     border-radius: 1%;
+ }
+
+ li {
+    font-weight: normal;
+ }
+
+ .data-analysis {
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
