@@ -7,6 +7,10 @@ This is my tech portfolio which showcases my projects for:<br>
 📈 Applied Data Science Lab<br>
 <br>
 You can access the portfolio here:<br>
+➡ https://codepen.io/jessislearning/full/BagNjjq<br>
+<br>
+or here:<br>
+➡ https://jessislearning.github.io/personal-porfolio/<br>
 <br>
 This is a preview image:<br>
 <br>
