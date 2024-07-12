@@ -4,16 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-        <title>Jessica Afalla Portfolio</title>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      />
+        <title>Jessica Afalla's Tech Portfolio</title>
     </head>
     <body>
         <header>
             <div class="navbar">
-            <nav>
+            <nav id="navbar">
                 <ul class="nav-ul">
                 <li class="nav-list"><a class="nav-link" href="#welcome-section">About</a></li>
-                <li class="nav-list"><a class="nav-link" href="#projects-section">Projects</a></li>
+                <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-list"><a class="nav-link" href="#connect-section">Connect</a></li>
             </ul>
             </nav>
@@ -21,60 +24,87 @@
         </header>
         <section class="welcome-section" id="welcome-section">
             <h1>Jessica Afalla</h1>
-            <h2>personal portfolio</h2>
+            <img class ="face" src="https://little-castle.com/wp-content/uploads/2024/07/PXL_20230305_024840168.MP_.jpg" width="200px">
+            <h2>Tech Portfolio</h2>
+            <p>I'm an experienced <a class="scientist" href="https://www.researchgate.net/profile/Jessica-Afalla">scientist</a> shifting into Data Science and Data Analytics.</p>
+            <p>I'm keeping my Python, HTML/CSS and other skills up to date.</p>
+            <p>Check out my projects below</p>
+            <div class="triangle"></div>
         </section>
-        <section class="projects" id="projects-section">
+        <section class="projects" id="projects">
             <h2>Projects</h2>
             <hr>
-            <p>freeCodeCamp's Responsive Web Design Certification</p>
+            <p class="certification-name">Responsive Web Design (freeCodeCamp)</p>
             <div class="web-design">
                 <div class="project-tile">
                     <a href="https://codepen.io/jessislearning/full/xxoxqEp" target="_blank">
-                        <img class="project-tile-image" src="https://private-user-images.githubusercontent.com/161026755/347699252-b17d59a2-1b29-47a7-a6e9-0d10876ee958.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2NzgzNjYsIm5iZiI6MTcyMDY3ODA2NiwicGF0aCI6Ii8xNjEwMjY3NTUvMzQ3Njk5MjUyLWIxN2Q1OWEyLTFiMjktNDdhNy1hNmU5LTBkMTA4NzZlZTk1OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMVQwNjA3NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03M2MyMDQzYWEzZGE3YjkwNzEwMGI2NmFlYWExN2QzMzljZGY2MTgyMGMwNjk2MzkwMDNmYWYwNGNlOTYxODk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.yMR7H0Moyw4iLBb_5GxzYwNX7i7RQZq8Z92jF-0459s">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/one-bedroom.png">
                     </a>
                     <p>On Github: <a class="project-link" href="https://github.com/jessislearning/product-landing-page" target="_blank">Product Landing Page</a></p>
                 </div>
                 <div class="project-tile">
                     <a href="https://codepen.io/jessislearning/full/jOjEvJq" target="_blank">
-                        <img class="project-tile-image" src="https://private-user-images.githubusercontent.com/161026755/347700174-21be27f4-22fa-449d-9e6c-a5746292c8bf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2Nzg1ODAsIm5iZiI6MTcyMDY3ODI4MCwicGF0aCI6Ii8xNjEwMjY3NTUvMzQ3NzAwMTc0LTIxYmUyN2Y0LTIyZmEtNDQ5ZC05ZTZjLWE1NzQ2MjkyYzhiZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMVQwNjExMjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yOTcyYjVkMjVjYzJjNjhhMTU5MzNiNjY5MGNkOTMwMTlhZmUzMjE1MDcwMzBlZjBiYTM4NGJhN2UzZDI4NjhlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.z3nadIZ_09Igxa-fK5Y4S9SvXV1LEeRSLbhj1I_7LOM">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/tribute-marge.png">
                     </a>
                     <p>On Github: <a class="project-link" href="https://github.com/jessislearning/tribute-page" target="_blank">Tribute Page</a></p>
                 </div>
                 <div class="project-tile">
                     <a href="https://codepen.io/jessislearning/full/mdZyGjv" target="_blank">
-                        <img class="project-tile-image" src="https://private-user-images.githubusercontent.com/161026755/347702033-12afed11-b15d-4dfd-8dd5-fac77b9bd656.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2Nzg5OTcsIm5iZiI6MTcyMDY3ODY5NywicGF0aCI6Ii8xNjEwMjY3NTUvMzQ3NzAyMDMzLTEyYWZlZDExLWIxNWQtNGRmZC04ZGQ1LWZhYzc3YjliZDY1Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMVQwNjE4MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZTJhZGEwNWUxYWU4YThkODhmNmYyZmMwM2VkZTJjNDYxODAwMWJkZmMxNThkZWMyYjQzNjcyZWJlN2ViZjJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9._YWvRaZeKHDoibxkYPKAjZBdjPCI3AOFiCDr-pYmRRw">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/survey-form.png">
                     </a>
-                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/survey-form">Survey Form</a></p>
+                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/survey-form" target="_blank">Survey Form</a></p>
                 </div>
                 <div class="project-tile">
                     <a href="https://codepen.io/jessislearning/full/mdZyGYg" target="_blank">
-                        <img class="project-tile-image" src="https://private-user-images.githubusercontent.com/161026755/347706970-b78046fb-34bd-4f5b-b298-5ed71ca9f84d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2ODAxMTMsIm5iZiI6MTcyMDY3OTgxMywicGF0aCI6Ii8xNjEwMjY3NTUvMzQ3NzA2OTcwLWI3ODA0NmZiLTM0YmQtNGY1Yi1iMjk4LTVlZDcxY2E5Zjg0ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMVQwNjM2NTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZjdlZGEzNzJkZDg4MTcyN2FlNGU0Mjg2MjU3ZWU4YmNmOWQzNzQyM2VmMzgwMTE2ZWM0ODI1ODBkYjkyYWVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2h_e8qwXwxVbZnddkc6kE3oMuxLasx66Ol9WbF-S4LU">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/technical-doc.png">
                     </a>
                     <p>On Github: <a class="project-link" href="https://github.com/jessislearning/technical-documentation-page" target="_blank">Technical Documentation Page</a></p>
+                    <p class="certification-name" style="text-align:center">View my developer certification <a href="https://www.freecodecamp.org/certification/jessislearning/responsive-web-design" target="_blank" >here</a></p>
                 </div>
             </div>
             <div class="data-analysis">
                 <hr>
-                <p>freeCodeCamp's Data Analysis with Python Certification</p>
+                <p class="certification-name">Data Analysis with Python</p>
                 <ul>
-                <li><a class="project-link" href="https://github.com/jessislearning/Mean-Variance-Standard-Deviation-Calculator">Mean Variance Standard Deviation Calculator</a></li>
-                <li><a class="project-link" href="https://github.com/jessislearning/Sea-Level-Predictor">Sea Level Predictor</a></li>
-                <li><a class="project-link" href="https://github.com/jessislearning/demographic-data-analyzer">Demographic Data Analyzer</a></li>
-                <li><a class="project-link" href="https://github.com/jessislearning/Medical-Data-Visualizer">Medical Data Visualizer</a></li>
-                <li><a class="project-link" href="https://github.com/jessislearning/Page-View-Time-Series-Visualizer">Page View Time Series Visualizer</a></li>
+                <li><a class="project-link" href="https://github.com/jessislearning/Mean-Variance-Standard-Deviation-Calculator" target="_blank">Mean Variance Standard Deviation Calculator</a></li><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/demographic-data-analyzer" target="_blank">Demographic Data Analyzer</a></li><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Medical-Data-Visualizer" target="_blank">Medical Data Visualizer</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/medical-data-heatmap.png" class="center"></a><br><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Page-View-Time-Series-Visualizer" target="_blank">Page View Time Series Visualizer</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/box_plot.png" class="center"></a><br><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Sea-Level-Predictor" target="_blank">Sea Level Predictor</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/sea-level-predictor.png" class="center"></a>
                 </ul>
-                <p style="text-align:center">View my certificate <a href="https://www.freecodecamp.org/certification/jessislearning/data-analysis-with-python-v7" target="_blank" style="font-weight:bold">here</a></p>
+                <p class="certification-name" style="text-align:center">View my developer certification <a href="https://www.freecodecamp.org/certification/jessislearning/data-analysis-with-python-v7" target="_blank" >here</a></p>
             </div>
             <div class="data-science">
                 <hr>
-                <p>World Quant University's Applied Data Science Lab</p>
+                <p class="certification-name">Applied Data Science Lab</p>
+                <img src="https://images.credly.com/size/680x680/images/42780b1f-a849-40e0-88a8-de3ab38adc52/image.png" class="badge">
+                <ul>
+                    <li>Housing in Mexico</li>
+                    <li>Apartment Sales in Buenos Aires</li>
+                    <li>Air Quality in Nairobi</li>
+                    <li>Earthquake Damage in Nepal</li>
+                    <li>Bankruptcy in Poland</li>
+                    <li>Customer Segmentation in the US</li>
+                    <li>A/B Testing at WorldQuant University</li>
+                    <li>Volatility Forecasting in India</li>
+                </ul>
+                <p class="certification-name" style="text-align:center">View my certificate and project descriptions <a href="https://www.credly.com/badges/4c280a1c-6eaf-4cfd-983e-33ffda95d396" target="_blank" >here</a></p>
             </div>
         </section>
-        <section class="connect-section" id="connect-section">
-            <h2>Let's connect</h2>
-            <a class="linkedin"></a>
-            <a class="github"></a>
-            <a class="freeCodeCamp" id="profile-link" target="_blank"></a>
-        </section>
+        <footer class="connect-section" id="connect-section">
+            <div class="connect">
+                <h2>Let's connect</h2>
+                <p>I'm based in:<br>📍 Manila, Philippines <br>📍 Tsukuba, Japan </p>
+                <p>You can also find me here:</p>
+            <div class="social-icons">
+            <a class="socials" href="https://www.linkedin.com/in/jessica-afalla/" target="_blank"><i class="fab fa-linkedin-in"></i> Jessica-Afalla</a>
+            <a class="socials" href="https://github.com/jessislearning" target="_blank"><i class="fab fa-github"></i> jessislearning</a>
+            <a class="socials" href="https://www.freecodecamp.org/jessislearning" id="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i> jessislearning</a>
+            </div>
+        </div>
+    </footer>
     </body>
 </html>
