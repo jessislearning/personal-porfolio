@@ -1,13 +1,19 @@
 html {
     background-color: darkslategray;
     color: whitesmoke;
-    font-family:monospace;
+    font-family: Futura;
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -19,26 +25,187 @@ h2 {
     color:pink
 }
 
-.navbar {
-    background-color: #b4786b;
-    height: 2em;
-    text-align: end;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding-bottom: 10px;
+.nav-link {
+    text-decoration: none;
+    color:whitesmoke;
 }
 
-li {
-    display: inline;
+a { 
+    text-decoration: none;
+    color:whitesmoke;
 }
+
+a:hover {
+    background-color: #612a11;
+}
+
+.project-link:hover {
+    background-color: #612a11;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #b4786b;
+    margin-top: 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-list:hover {
+    background-color: #612a11;
+}
+
+@media (max-width:500px) {
+    .nav-list {
+        font-size: small;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Welcome Section */
 
 .welcome-section {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     width: 100%;
 }
+
+.face {
+    border-radius: 50%
+}
+
+.scientist {
+    color:#b4786b
+}
+
+.triangle {
+    border-top: 10vh solid pink;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+}
+
+
+/* Projects Section */
+
+.project-tile-image { 
+    height: 300px;  
+    max-height: 400px;
+}
+
+.projects-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.web-design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+img {
+     object-fit:cover;
+     object-position: top center;
+     border-radius: 1%;
+ }
+
+ li {
+    font-weight: normal;
+    font-family: monospace;
+    font-size: large;
+ }
+
+ .certification-name {
+    font-size: large;
+    color: pink;
+ }
+
+ .center {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 500px;
+  }
+
+  .badge { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.data-analysis-img {
+    max-width: 500px;
+}
+
+@media (max-width:500px) {
+    .project-tile-image { 
+        max-height: 200px;
+    }
+
+    .data-analysis-img {
+        max-width: 300px;
+    }
+}
+
+ /* Footer (Connect Section) */
+
+ .connect-section {
+    padding-bottom: 40px;
+ }
+
+ .social-icons {
+  display: flex;
+  font-size: 1.2em;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  width: 30%;
+  margin-left: 50px;
+  align-items: center;
+}
+
+i {
+    color:#612a11;
+}
+
+ .connect {
+    margin-left: 10px;
+ }
+ 
+.socials {
+    color:darkslategray;
+}
+ .socials:hover {
+    background-color: whitesmoke;
+ }
+
+footer {
+    background-color: #b4786b;
+    position: absolute;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-right: 0;
+ }
+
