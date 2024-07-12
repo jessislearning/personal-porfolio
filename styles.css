@@ -1,7 +1,7 @@
 html {
     background-color: darkslategray;
     color: whitesmoke;
-    font-family: Futura;
+    font-family: Futura, monospace;
     box-sizing: border-box;
     letter-spacing: 1px;
 }
