@@ -4,34 +4,107 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <title>Jessica Afalla Portfolio</title>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      />
+        <title>Jessica Afalla's Tech Portfolio</title>
     </head>
     <body>
         <header>
             <div class="navbar">
-            <nav>
-                <ul>
-                <li><a>About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Contact</a></li>
+            <nav id="navbar">
+                <ul class="nav-ul">
+                <li class="nav-list"><a class="nav-link" href="#welcome-section">About</a></li>
+                <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-list"><a class="nav-link" href="#connect-section">Connect</a></li>
             </ul>
             </nav>
         </div>
         </header>
         <section class="welcome-section" id="welcome-section">
             <h1>Jessica Afalla</h1>
-            <h2>personal portfolio</h2>
+            <img class ="face" src="https://little-castle.com/wp-content/uploads/2024/07/PXL_20230305_024840168.MP_.jpg" width="200px">
+            <h2>Tech Portfolio</h2>
+            <p>I'm an experienced <a class="scientist" href="https://www.researchgate.net/profile/Jessica-Afalla">scientist</a> shifting into Data Science and Data Analytics.</p>
+            <p>I'm keeping my Python, HTML/CSS and other skills up to date.</p>
+            <p>Check out my projects below</p>
+            <div class="triangle"></div>
         </section>
-        <section class="project-tile">
+        <section class="projects" id="projects">
             <h2>Projects</h2>
-            <div class="web-design"></div>
-            <div class="data-analysis"></div>
+            <hr>
+            <p class="certification-name">Responsive Web Design (freeCodeCamp)</p>
+            <div class="web-design">
+                <div class="project-tile">
+                    <a href="https://codepen.io/jessislearning/full/xxoxqEp" target="_blank">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/one-bedroom.png">
+                    </a>
+                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/product-landing-page" target="_blank">Product Landing Page</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://codepen.io/jessislearning/full/jOjEvJq" target="_blank">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/tribute-marge.png">
+                    </a>
+                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/tribute-page" target="_blank">Tribute Page</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://codepen.io/jessislearning/full/mdZyGjv" target="_blank">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/survey-form.png">
+                    </a>
+                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/survey-form" target="_blank">Survey Form</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://codepen.io/jessislearning/full/mdZyGYg" target="_blank">
+                        <img class="project-tile-image" src="https://little-castle.com/wp-content/uploads/2024/07/technical-doc.png">
+                    </a>
+                    <p>On Github: <a class="project-link" href="https://github.com/jessislearning/technical-documentation-page" target="_blank">Technical Documentation Page</a></p>
+                    <p class="certification-name" style="text-align:center">View my developer certification <a href="https://www.freecodecamp.org/certification/jessislearning/responsive-web-design" target="_blank" >here</a></p>
+                </div>
+            </div>
+            <div class="data-analysis">
+                <hr>
+                <p class="certification-name">Data Analysis with Python</p>
+                <ul>
+                <li><a class="project-link" href="https://github.com/jessislearning/Mean-Variance-Standard-Deviation-Calculator" target="_blank">Mean Variance Standard Deviation Calculator</a></li><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/demographic-data-analyzer" target="_blank">Demographic Data Analyzer</a></li><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Medical-Data-Visualizer" target="_blank">Medical Data Visualizer</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/medical-data-heatmap.png" class="center"></a><br><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Page-View-Time-Series-Visualizer" target="_blank">Page View Time Series Visualizer</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/box_plot.png" class="center"></a><br><br>
+                <li><a class="project-link" href="https://github.com/jessislearning/Sea-Level-Predictor" target="_blank">Sea Level Predictor</li><br>
+                <img class="data-analysis-img" src="https://little-castle.com/wp-content/uploads/2024/07/sea-level-predictor.png" class="center"></a>
+                </ul>
+                <p class="certification-name" style="text-align:center">View my developer certification <a href="https://www.freecodecamp.org/certification/jessislearning/data-analysis-with-python-v7" target="_blank" >here</a></p>
+            </div>
+            <div class="data-science">
+                <hr>
+                <p class="certification-name">Applied Data Science Lab</p>
+                <img src="https://images.credly.com/size/680x680/images/42780b1f-a849-40e0-88a8-de3ab38adc52/image.png" class="badge">
+                <ul>
+                    <li>Housing in Mexico</li>
+                    <li>Apartment Sales in Buenos Aires</li>
+                    <li>Air Quality in Nairobi</li>
+                    <li>Earthquake Damage in Nepal</li>
+                    <li>Bankruptcy in Poland</li>
+                    <li>Customer Segmentation in the US</li>
+                    <li>A/B Testing at WorldQuant University</li>
+                    <li>Volatility Forecasting in India</li>
+                </ul>
+                <p class="certification-name" style="text-align:center">View my certificate and project descriptions <a href="https://www.credly.com/badges/4c280a1c-6eaf-4cfd-983e-33ffda95d396" target="_blank" >here</a></p>
+            </div>
         </section>
-        <section class="contact">
-            <h1>Let's connect</h1>
-            <a class="linkedin"></a>
-            <a class="github"></a>
-            <a class="freeCodeCamp" id="profile-link" target="_blank"></a>
-        </section>
+        <footer class="connect-section" id="connect-section">
+            <div class="connect">
+                <h2>Let's connect</h2>
+                <p>I'm based in:<br>📍 Manila, Philippines <br>📍 Tsukuba, Japan </p>
+                <p>You can also find me here:</p>
+            <div class="social-icons">
+            <a class="socials" href="https://www.linkedin.com/in/jessica-afalla/" target="_blank"><i class="fab fa-linkedin-in"></i> Jessica-Afalla</a>
+            <a class="socials" href="https://github.com/jessislearning" target="_blank"><i class="fab fa-github"></i> jessislearning</a>
+            <a class="socials" href="https://www.freecodecamp.org/jessislearning" id="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i> jessislearning</a>
+            </div>
+        </div>
+    </footer>
     </body>
 </html>
