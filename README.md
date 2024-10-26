@@ -1,10 +1,12 @@
 # personal-porfolio
 Responsive Web Design Project for FreeCodeCamp (5 of 5)<br>
 <br>
-This is my tech portfolio which showcases my projects for:<br>
-💻 Responsive Web Design<br>
-📊 Data Analysis with Python<br>
+This is my tech portfolio which showcases my tech projects:<br>
 📈 Applied Data Science Lab<br>
+📊 Data Visualizations/Dashboards<br>
+🔍 Data Analysis with Python<br>
+🧮 Scientific Computing with Python<br>
+💻 Responsive Web Design<br>
 <br>
 You can access the portfolio here:<br>
 ➡ https://jessislearning.github.io/personal-porfolio/<br>
